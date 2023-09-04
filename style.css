@@ -1,0 +1,49 @@
+*{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+
+}
+
+#navbar{
+      background-color: cadetblue;
+      padding: 30px;
+      display: flex;
+      flex-direction: row;
+      gap: 100px;
+      font-size: larger;
+      font-size: 40px;
+      font-weight: 800;
+      color: rgba(65, 2, 103, 0.5);
+      text-shadow: 50px palevioletred;
+}
+
+
+button{
+      margin: 50px;
+      padding: 10px 20px 10px 20px;
+      flex-direction: row;
+      justify-content: space-evenly;
+      border: 2px solid black;
+
+}
+
+button:hover{
+      background-color: bisque;
+      color: cadetblue;
+}
+
+#error-message{
+      
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:rgb(37, 144, 151);
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 10px;
+      font-size: xx-large;
+      font-weight: 400;
+
+}
